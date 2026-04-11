@@ -49,3 +49,9 @@
 - Improved UI/UX, visuals, and feedback systems
 - Updated multiplayer networking
 - Managed testing, builds, and release workflow
+
+## DEMO
+Note: The servers are no longer active so you have to download a modded demo to make it work. It uses a different Steam game setup.
+1. Download and install: https://drive.google.com/file/d/1UoxqCMN4VNJ0DlIm-IpZ52WMNxId3A6h/view?usp=drive_link
+2. Open Steam and download: https://store.steampowered.com/app/705210/Cube_Racer/
+3. Open the launcher and select Scram 2.
