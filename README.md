@@ -14,12 +14,6 @@
   <br><br>Steam Store Page: https://store.steampowered.com/app/1410410/Scram_2/
 </p>
 
-## Key Points
-- Refactored legacy gameplay and networking for scalability and performance
-- Upgraded gameplay mechanics, UI/UX, VFX/SFX
-- Rebalanced asymmetric PvP systems based on live production lessons
-- Improved graphics performance, state synchronization, and multiplayer physics
-- Streamlined project structure and modular gameplay system for faster development and testing
 <p align="center">
   <a href="https://github.com/user-attachments/assets/dd6cc5f7-07a1-4dde-8f45-de103fdbfaf4"><img src="https://github.com/user-attachments/assets/dd6cc5f7-07a1-4dde-8f45-de103fdbfaf4" width="45%"/></a>
   <a href="https://github.com/user-attachments/assets/b279d5b5-627d-4582-9f68-c26a2a1ef9e7"><img src="https://github.com/user-attachments/assets/b279d5b5-627d-4582-9f68-c26a2a1ef9e7" width="45%"/></a>
@@ -36,6 +30,13 @@
   <img src="https://github.com/user-attachments/assets/f07d7392-6116-457e-a973-b067dcfe07c4" alt="0127-copy(1)" width="400"/>
 </p>
 
+## Key Points
+- Refactored legacy gameplay and networking for scalability and performance
+- Upgraded gameplay mechanics, UI/UX, VFX/SFX
+- Rebalanced asymmetric PvP systems based on live production lessons
+- Improved graphics performance, state synchronization, and multiplayer physics
+- Streamlined project structure and modular gameplay system for faster development and testing
+
 ## Engineering
 - Refactoring a live project without breaking core gameplay
 - Improving maintainability and performance of existing architecture
@@ -48,8 +49,3 @@
 - Improved UI/UX, visuals, and feedback systems
 - Updated multiplayer networking
 - Managed testing, builds, and release workflow
-
-## Tech Stack
-- Unity, C#
-- Photon Fusion and Bolt Netcode
-- Blender
