@@ -14,6 +14,30 @@
   <br><br>Steam Store Page: https://store.steampowered.com/app/1410410/Scram_2/
 </p>
 
+## Key Points
+* Reworked Scram’s Unity and C# gameplay systems for a second multiplayer release.
+* Expanded the asymmetric PvP loop with randomized extraction locations and interactive hiding spots that mutants could destroy.
+* Refactored gameplay and networking code to make behavior easier to modify, debug, and test.
+* Improved player feedback through updated UI, visual effects, and sound.
+* Tuned multiplayer synchronization, physics interactions, and graphics performance.
+
+## Engineering
+* **Gameplay system refactoring:** Reorganized existing C# code while preserving the interactions between player movement, combat, objectives, and match state.
+* **Asymmetric multiplayer design:** Implemented and balanced different rules and interactions for armed survivors and melee-focused mutants.
+* **Variable match flow:** Added randomized extraction locations so players had to adapt their routes and positioning between matches.
+* **Networked interactions:** Updated synchronization for gameplay and physics events, including interactions with hiding spots and other players.
+* **Iteration and performance:** Used multiplayer testing to identify synchronization issues, adjust gameplay balance, and improve runtime performance.
+
+## My Role - Gameplay Engineer and Designer
+* Led the gameplay redesign and C# refactoring for Scram 2.
+* Implemented and iterated on multiplayer mechanics, objectives, and player interactions.
+* Updated networking behavior and investigated state synchronization issues.
+* Directed improvements to UI, visuals, audio feedback, and game feel.
+* Managed playtesting, builds, and release preparation.
+
+## DEMO
+Click here to view: https://store.steampowered.com/app/1410410/Scram_2/
+
 <p align="center">
   <a href="https://github.com/user-attachments/assets/dd6cc5f7-07a1-4dde-8f45-de103fdbfaf4"><img src="https://github.com/user-attachments/assets/dd6cc5f7-07a1-4dde-8f45-de103fdbfaf4" width="45%"/></a>
   <a href="https://github.com/user-attachments/assets/b279d5b5-627d-4582-9f68-c26a2a1ef9e7"><img src="https://github.com/user-attachments/assets/b279d5b5-627d-4582-9f68-c26a2a1ef9e7" width="45%"/></a>
@@ -29,29 +53,3 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f07d7392-6116-457e-a973-b067dcfe07c4" alt="0127-copy(1)" width="400"/>
 </p>
-
-## Key Points
-- Refactored legacy gameplay and networking for scalability and performance
-- Upgraded gameplay mechanics, UI/UX, VFX/SFX
-- Rebalanced asymmetric PvP systems based on live production lessons
-- Improved graphics performance, state synchronization, and multiplayer physics
-- Streamlined project structure and modular gameplay system for faster development and testing
-
-## Engineering
-- Refactoring a live project without breaking core gameplay
-- Improving maintainability and performance of existing architecture
-- Redesigning visuals and sound
-- Modernizing multiplayer synchronization and physics handling
-- Designing mechanics for long-term iteration rather than first-time release
-
-## My Role - Gamplay Engineer and Designer
-- Led gameplay redesign and refactoring
-- Improved UI/UX, visuals, and feedback systems
-- Updated multiplayer networking
-- Managed testing, builds, and release workflow
-
-## DEMO
-Note: The servers are no longer active so you have to download a modded demo to make it work. It uses a different Steam game setup.
-1. Download and install: https://drive.google.com/file/d/1UoxqCMN4VNJ0DlIm-IpZ52WMNxId3A6h/view?usp=drive_link
-2. Open Steam and download: https://store.steampowered.com/app/705210/Cube_Racer/
-3. Open the launcher and select Scram 2.
